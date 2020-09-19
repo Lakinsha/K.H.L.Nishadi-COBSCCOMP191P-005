@@ -64,8 +64,6 @@ class MapScreen: UIViewController {
             break
         case .authorizedAlways:
             break
-        @unknown default:
-            <#fatalError()#>
         }
     }
 }

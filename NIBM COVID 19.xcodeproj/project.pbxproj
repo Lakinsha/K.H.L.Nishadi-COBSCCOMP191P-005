@@ -26,6 +26,7 @@
 		12D98B282515C851008C6590 /* FifthSafeActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D98B272515C851008C6590 /* FifthSafeActionViewController.swift */; };
 		12D98B2A2515D285008C6590 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D98B292515D285008C6590 /* FinalViewController.swift */; };
 		12D98B2C2515D3DD008C6590 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D98B2B2515D3DD008C6590 /* MapViewController.swift */; };
+		12D98B2E2516129E008C6590 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D98B2D2516129E008C6590 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		12D98B272515C851008C6590 /* FifthSafeActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthSafeActionViewController.swift; sourceTree = "<group>"; };
 		12D98B292515D285008C6590 /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
 		12D98B2B2515D3DD008C6590 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		12D98B2D2516129E008C6590 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = "../../../../Desktop/untitled folder/NIBM COVID 19/NIBM COVID 19/SettingsViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				12D98B272515C851008C6590 /* FifthSafeActionViewController.swift */,
 				12D98B292515D285008C6590 /* FinalViewController.swift */,
 				12D98B2B2515D3DD008C6590 /* MapViewController.swift */,
+				12D98B2D2516129E008C6590 /* SettingsViewController.swift */,
 			);
 			path = "NIBM COVID 19";
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				12418D18251443F10045DE09 /* ViewController.swift in Sources */,
 				12418D14251443F10045DE09 /* AppDelegate.swift in Sources */,
 				12418D16251443F10045DE09 /* SceneDelegate.swift in Sources */,
+				12D98B2E2516129E008C6590 /* SettingsViewController.swift in Sources */,
 				12D98B282515C851008C6590 /* FifthSafeActionViewController.swift in Sources */,
 				12D98B222515C3C0008C6590 /* SecondSafeActionViewController.swift in Sources */,
 				12D98B262515C831008C6590 /* FourthSafeActionViewController.swift in Sources */,

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		121E9462251780D2006B5D00 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E9461251780D2006B5D00 /* SettingsViewController.swift */; };
+		121E9471251797D7006B5D00 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E9470251797D7006B5D00 /* Utilities.swift */; };
+		121E94732517A046006B5D00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E94722517A046006B5D00 /* SceneDelegate.swift */; };
+		121E94752517A6A5006B5D00 /* GoogleService-Info-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 121E94742517A6A5006B5D00 /* GoogleService-Info-3.plist */; };
 		12418D14251443F10045DE09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12418D13251443F10045DE09 /* AppDelegate.swift */; };
 		12418D16251443F10045DE09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12418D15251443F10045DE09 /* SceneDelegate.swift */; };
 		12418D18251443F10045DE09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12418D17251443F10045DE09 /* ViewController.swift */; };
@@ -26,8 +30,8 @@
 		12D98B282515C851008C6590 /* FifthSafeActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D98B272515C851008C6590 /* FifthSafeActionViewController.swift */; };
 		12D98B2A2515D285008C6590 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D98B292515D285008C6590 /* FinalViewController.swift */; };
 		12D98B2C2515D3DD008C6590 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D98B2B2515D3DD008C6590 /* MapViewController.swift */; };
-		12D98B2E2516129E008C6590 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D98B2D2516129E008C6590 /* SettingsViewController.swift */; };
 		12DFF61325172F1000ADB932 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DFF61225172F1000ADB932 /* ContactUsViewController.swift */; };
+		F34101B11224C383C4161CFE /* Pods_NIBM_COVID_19.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E00D68BC7B8BD90CFF50F78 /* Pods_NIBM_COVID_19.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		102F0322C6D42F17AFFE9992 /* Pods-NIBM COVID 19.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM COVID 19.release.xcconfig"; path = "Target Support Files/Pods-NIBM COVID 19/Pods-NIBM COVID 19.release.xcconfig"; sourceTree = "<group>"; };
+		121E9461251780D2006B5D00 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		121E9470251797D7006B5D00 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		121E94722517A046006B5D00 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		121E94742517A6A5006B5D00 /* GoogleService-Info-3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-3.plist"; sourceTree = "<group>"; };
 		12418D10251443F10045DE09 /* NIBM COVID 19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NIBM COVID 19.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12418D13251443F10045DE09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12418D15251443F10045DE09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,8 +82,9 @@
 		12D98B272515C851008C6590 /* FifthSafeActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthSafeActionViewController.swift; sourceTree = "<group>"; };
 		12D98B292515D285008C6590 /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
 		12D98B2B2515D3DD008C6590 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		12D98B2D2516129E008C6590 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = "../../../../Desktop/untitled folder/NIBM COVID 19/NIBM COVID 19/SettingsViewController.swift"; sourceTree = "<group>"; };
 		12DFF61225172F1000ADB932 /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		6E00D68BC7B8BD90CFF50F78 /* Pods_NIBM_COVID_19.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_COVID_19.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E494CB849B708998D31F9A4B /* Pods-NIBM COVID 19.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM COVID 19.debug.xcconfig"; path = "Target Support Files/Pods-NIBM COVID 19/Pods-NIBM COVID 19.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F34101B11224C383C4161CFE /* Pods_NIBM_COVID_19.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +113,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		121E94602517808B006B5D00 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				12418D17251443F10045DE09 /* ViewController.swift */,
+				12418D432514810B0045DE09 /* LoginViewController.swift */,
+				12418D4525148CA70045DE09 /* RegisterViewController.swift */,
+				12418D472514BBC10045DE09 /* HomeViewController.swift */,
+				12D98B1D2515B9B7008C6590 /* SafeActionsViewController.swift */,
+				12D98B212515C3C0008C6590 /* SecondSafeActionViewController.swift */,
+				12D98B232515C815008C6590 /* ThirdSafeActionViewController.swift */,
+				12D98B252515C831008C6590 /* FourthSafeActionViewController.swift */,
+				12D98B1F2515C2C8008C6590 /* FirstSafeActionViewController.swift */,
+				12D98B272515C851008C6590 /* FifthSafeActionViewController.swift */,
+				12D98B292515D285008C6590 /* FinalViewController.swift */,
+				12D98B2B2515D3DD008C6590 /* MapViewController.swift */,
+				121E9461251780D2006B5D00 /* SettingsViewController.swift */,
+				12DFF61225172F1000ADB932 /* ContactUsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		121E946F251797B2006B5D00 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				121E94722517A046006B5D00 /* SceneDelegate.swift */,
+				121E9470251797D7006B5D00 /* Utilities.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		12418D07251443F10045DE09 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +150,8 @@
 				12418D29251443F40045DE09 /* NIBM COVID 19Tests */,
 				12418D34251443F40045DE09 /* NIBM COVID 19UITests */,
 				12418D11251443F10045DE09 /* Products */,
+				B578B61E245868B6517FACF7 /* Pods */,
+				26857DDA4FB976C009C3D4CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,26 +168,15 @@
 		12418D12251443F10045DE09 /* NIBM COVID 19 */ = {
 			isa = PBXGroup;
 			children = (
+				121E946F251797B2006B5D00 /* Helpers */,
 				12418D13251443F10045DE09 /* AppDelegate.swift */,
 				12418D15251443F10045DE09 /* SceneDelegate.swift */,
-				12418D17251443F10045DE09 /* ViewController.swift */,
 				12418D19251443F10045DE09 /* Main.storyboard */,
 				12418D1C251443F40045DE09 /* Assets.xcassets */,
 				12418D1E251443F40045DE09 /* LaunchScreen.storyboard */,
+				121E94742517A6A5006B5D00 /* GoogleService-Info-3.plist */,
 				12418D21251443F40045DE09 /* Info.plist */,
-				12418D432514810B0045DE09 /* LoginViewController.swift */,
-				12418D4525148CA70045DE09 /* RegisterViewController.swift */,
-				12418D472514BBC10045DE09 /* HomeViewController.swift */,
-				12D98B1D2515B9B7008C6590 /* SafeActionsViewController.swift */,
-				12D98B1F2515C2C8008C6590 /* FirstSafeActionViewController.swift */,
-				12D98B212515C3C0008C6590 /* SecondSafeActionViewController.swift */,
-				12D98B232515C815008C6590 /* ThirdSafeActionViewController.swift */,
-				12D98B252515C831008C6590 /* FourthSafeActionViewController.swift */,
-				12D98B272515C851008C6590 /* FifthSafeActionViewController.swift */,
-				12D98B292515D285008C6590 /* FinalViewController.swift */,
-				12D98B2B2515D3DD008C6590 /* MapViewController.swift */,
-				12D98B2D2516129E008C6590 /* SettingsViewController.swift */,
-				12DFF61225172F1000ADB932 /* ContactUsViewController.swift */,
+				121E94602517808B006B5D00 /* Controllers */,
 			);
 			path = "NIBM COVID 19";
 			sourceTree = "<group>";
@@ -167,6 +199,24 @@
 			path = "NIBM COVID 19UITests";
 			sourceTree = "<group>";
 		};
+		26857DDA4FB976C009C3D4CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E00D68BC7B8BD90CFF50F78 /* Pods_NIBM_COVID_19.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B578B61E245868B6517FACF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E494CB849B708998D31F9A4B /* Pods-NIBM COVID 19.debug.xcconfig */,
+				102F0322C6D42F17AFFE9992 /* Pods-NIBM COVID 19.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -174,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12418D3A251443F40045DE09 /* Build configuration list for PBXNativeTarget "NIBM COVID 19" */;
 			buildPhases = (
+				B7B6B619B8D6C8863F802418 /* [CP] Check Pods Manifest.lock */,
 				12418D0C251443F10045DE09 /* Sources */,
 				12418D0D251443F10045DE09 /* Frameworks */,
 				12418D0E251443F10045DE09 /* Resources */,
+				1B83720B5ED5FB7CF2C8CD28 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -274,6 +326,7 @@
 				12418D20251443F40045DE09 /* LaunchScreen.storyboard in Resources */,
 				12418D1D251443F40045DE09 /* Assets.xcassets in Resources */,
 				12418D1B251443F10045DE09 /* Main.storyboard in Resources */,
+				121E94752517A6A5006B5D00 /* GoogleService-Info-3.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +346,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B83720B5ED5FB7CF2C8CD28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NIBM COVID 19/Pods-NIBM COVID 19-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NIBM COVID 19/Pods-NIBM COVID 19-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NIBM COVID 19/Pods-NIBM COVID 19-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7B6B619B8D6C8863F802418 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NIBM COVID 19-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		12418D0C251443F10045DE09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -306,10 +401,12 @@
 				12418D18251443F10045DE09 /* ViewController.swift in Sources */,
 				12418D14251443F10045DE09 /* AppDelegate.swift in Sources */,
 				12418D16251443F10045DE09 /* SceneDelegate.swift in Sources */,
-				12D98B2E2516129E008C6590 /* SettingsViewController.swift in Sources */,
 				12D98B282515C851008C6590 /* FifthSafeActionViewController.swift in Sources */,
 				12D98B222515C3C0008C6590 /* SecondSafeActionViewController.swift in Sources */,
+				121E9471251797D7006B5D00 /* Utilities.swift in Sources */,
+				121E94732517A046006B5D00 /* SceneDelegate.swift in Sources */,
 				12DFF61325172F1000ADB932 /* ContactUsViewController.swift in Sources */,
+				121E9462251780D2006B5D00 /* SettingsViewController.swift in Sources */,
 				12D98B262515C831008C6590 /* FourthSafeActionViewController.swift in Sources */,
 				12418D482514BBC10045DE09 /* HomeViewController.swift in Sources */,
 				12D98B242515C815008C6590 /* ThirdSafeActionViewController.swift in Sources */,
@@ -484,6 +581,7 @@
 		};
 		12418D3B251443F40045DE09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E494CB849B708998D31F9A4B /* Pods-NIBM COVID 19.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -502,6 +600,7 @@
 		};
 		12418D3C251443F40045DE09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 102F0322C6D42F17AFFE9992 /* Pods-NIBM COVID 19.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

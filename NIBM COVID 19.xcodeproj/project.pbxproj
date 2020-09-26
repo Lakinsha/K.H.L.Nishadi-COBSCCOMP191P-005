@@ -3,14 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		121E9462251780D2006B5D00 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E9461251780D2006B5D00 /* SettingsViewController.swift */; };
 		121E9471251797D7006B5D00 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E9470251797D7006B5D00 /* Utilities.swift */; };
-		121E94732517A046006B5D00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E94722517A046006B5D00 /* SceneDelegate.swift */; };
-		121E94752517A6A5006B5D00 /* GoogleService-Info-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 121E94742517A6A5006B5D00 /* GoogleService-Info-3.plist */; };
 		12418D14251443F10045DE09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12418D13251443F10045DE09 /* AppDelegate.swift */; };
 		12418D16251443F10045DE09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12418D15251443F10045DE09 /* SceneDelegate.swift */; };
 		12418D18251443F10045DE09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12418D17251443F10045DE09 /* ViewController.swift */; };
@@ -31,6 +29,9 @@
 		12D98B2A2515D285008C6590 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D98B292515D285008C6590 /* FinalViewController.swift */; };
 		12D98B2C2515D3DD008C6590 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D98B2B2515D3DD008C6590 /* MapViewController.swift */; };
 		12DFF61325172F1000ADB932 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DFF61225172F1000ADB932 /* ContactUsViewController.swift */; };
+		12E9552D251DBB770095A6FA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E9552C251DBB770095A6FA /* Constants.swift */; };
+		12E9552F251DC3F20095A6FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12E9552E251DC3F20095A6FA /* GoogleService-Info.plist */; };
+		8306543DFE1B5B002DFE3F59 /* Pods_NIBM_COVID_19Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E24BC6F289566E1EB9A16F /* Pods_NIBM_COVID_19Tests.framework */; };
 		F34101B11224C383C4161CFE /* Pods_NIBM_COVID_19.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E00D68BC7B8BD90CFF50F78 /* Pods_NIBM_COVID_19.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,11 +53,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B684EDCE28D37D78FAB8FA9 /* Pods-NIBM COVID 19Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM COVID 19Tests.release.xcconfig"; path = "Target Support Files/Pods-NIBM COVID 19Tests/Pods-NIBM COVID 19Tests.release.xcconfig"; sourceTree = "<group>"; };
 		102F0322C6D42F17AFFE9992 /* Pods-NIBM COVID 19.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM COVID 19.release.xcconfig"; path = "Target Support Files/Pods-NIBM COVID 19/Pods-NIBM COVID 19.release.xcconfig"; sourceTree = "<group>"; };
 		121E9461251780D2006B5D00 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		121E9470251797D7006B5D00 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		121E94722517A046006B5D00 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		121E94742517A6A5006B5D00 /* GoogleService-Info-3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-3.plist"; sourceTree = "<group>"; };
 		12418D10251443F10045DE09 /* NIBM COVID 19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NIBM COVID 19.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12418D13251443F10045DE09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12418D15251443F10045DE09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,7 +83,11 @@
 		12D98B292515D285008C6590 /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
 		12D98B2B2515D3DD008C6590 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		12DFF61225172F1000ADB932 /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		12E9552C251DBB770095A6FA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		12E9552E251DC3F20095A6FA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		37E24BC6F289566E1EB9A16F /* Pods_NIBM_COVID_19Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_COVID_19Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E00D68BC7B8BD90CFF50F78 /* Pods_NIBM_COVID_19.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_COVID_19.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D107C55D0E429908C33A59 /* Pods-NIBM COVID 19Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM COVID 19Tests.debug.xcconfig"; path = "Target Support Files/Pods-NIBM COVID 19Tests/Pods-NIBM COVID 19Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E494CB849B708998D31F9A4B /* Pods-NIBM COVID 19.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM COVID 19.debug.xcconfig"; path = "Target Support Files/Pods-NIBM COVID 19/Pods-NIBM COVID 19.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8306543DFE1B5B002DFE3F59 /* Pods_NIBM_COVID_19Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +142,9 @@
 		121E946F251797B2006B5D00 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				121E94722517A046006B5D00 /* SceneDelegate.swift */,
+				12418D13251443F10045DE09 /* AppDelegate.swift */,
 				121E9470251797D7006B5D00 /* Utilities.swift */,
+				12E9552C251DBB770095A6FA /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -169,13 +175,12 @@
 			isa = PBXGroup;
 			children = (
 				121E946F251797B2006B5D00 /* Helpers */,
-				12418D13251443F10045DE09 /* AppDelegate.swift */,
 				12418D15251443F10045DE09 /* SceneDelegate.swift */,
 				12418D19251443F10045DE09 /* Main.storyboard */,
 				12418D1C251443F40045DE09 /* Assets.xcassets */,
 				12418D1E251443F40045DE09 /* LaunchScreen.storyboard */,
-				121E94742517A6A5006B5D00 /* GoogleService-Info-3.plist */,
 				12418D21251443F40045DE09 /* Info.plist */,
+				12E9552E251DC3F20095A6FA /* GoogleService-Info.plist */,
 				121E94602517808B006B5D00 /* Controllers */,
 			);
 			path = "NIBM COVID 19";
@@ -203,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				6E00D68BC7B8BD90CFF50F78 /* Pods_NIBM_COVID_19.framework */,
+				37E24BC6F289566E1EB9A16F /* Pods_NIBM_COVID_19Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -212,8 +218,9 @@
 			children = (
 				E494CB849B708998D31F9A4B /* Pods-NIBM COVID 19.debug.xcconfig */,
 				102F0322C6D42F17AFFE9992 /* Pods-NIBM COVID 19.release.xcconfig */,
+				78D107C55D0E429908C33A59 /* Pods-NIBM COVID 19Tests.debug.xcconfig */,
+				0B684EDCE28D37D78FAB8FA9 /* Pods-NIBM COVID 19Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -243,6 +250,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12418D3D251443F40045DE09 /* Build configuration list for PBXNativeTarget "NIBM COVID 19Tests" */;
 			buildPhases = (
+				5656B7B160323E5FC2507E72 /* [CP] Check Pods Manifest.lock */,
 				12418D22251443F40045DE09 /* Sources */,
 				12418D23251443F40045DE09 /* Frameworks */,
 				12418D24251443F40045DE09 /* Resources */,
@@ -324,9 +332,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				12418D20251443F40045DE09 /* LaunchScreen.storyboard in Resources */,
+				12E9552F251DC3F20095A6FA /* GoogleService-Info.plist in Resources */,
 				12418D1D251443F40045DE09 /* Assets.xcassets in Resources */,
 				12418D1B251443F10045DE09 /* Main.storyboard in Resources */,
-				121E94752517A6A5006B5D00 /* GoogleService-Info-3.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +370,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NIBM COVID 19/Pods-NIBM COVID 19-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5656B7B160323E5FC2507E72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NIBM COVID 19Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B7B6B619B8D6C8863F802418 /* [CP] Check Pods Manifest.lock */ = {
@@ -404,13 +434,13 @@
 				12D98B282515C851008C6590 /* FifthSafeActionViewController.swift in Sources */,
 				12D98B222515C3C0008C6590 /* SecondSafeActionViewController.swift in Sources */,
 				121E9471251797D7006B5D00 /* Utilities.swift in Sources */,
-				121E94732517A046006B5D00 /* SceneDelegate.swift in Sources */,
 				12DFF61325172F1000ADB932 /* ContactUsViewController.swift in Sources */,
 				121E9462251780D2006B5D00 /* SettingsViewController.swift in Sources */,
 				12D98B262515C831008C6590 /* FourthSafeActionViewController.swift in Sources */,
 				12418D482514BBC10045DE09 /* HomeViewController.swift in Sources */,
 				12D98B242515C815008C6590 /* ThirdSafeActionViewController.swift in Sources */,
 				12D98B2C2515D3DD008C6590 /* MapViewController.swift in Sources */,
+				12E9552D251DBB770095A6FA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,6 +649,7 @@
 		};
 		12418D3E251443F40045DE09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78D107C55D0E429908C33A59 /* Pods-NIBM COVID 19Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -641,6 +672,7 @@
 		};
 		12418D3F251443F40045DE09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B684EDCE28D37D78FAB8FA9 /* Pods-NIBM COVID 19Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

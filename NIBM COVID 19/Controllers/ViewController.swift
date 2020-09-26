@@ -16,11 +16,9 @@ class ViewController: UIViewController {
     
     var videoPlayerLayer:AVPlayerLayer?
 
-    @IBAction func SignInButton(_ sender: UIButton) {
-    }
+    @IBOutlet weak var SignInButton: UIButton!
     
-    @IBAction func SignUpButton(_ sender: UIButton) {
-    }
+    @IBOutlet weak var SignUpButton: UIButton!
     @IBAction func FaceIdButton(_ sender: Any) {
         
         let context:LAContext = LAContext()
@@ -56,7 +54,7 @@ class ViewController: UIViewController {
 //    func setUpElements() {
 //
 //        Utilities.styleFilledButton(SignUpButton)
-//        Utilities.styleHollowButton(SigninButton)
+//        Utilities.styleHollowButton(SignInButton)
 //
 //    }
     

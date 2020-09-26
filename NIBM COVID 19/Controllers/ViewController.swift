@@ -12,13 +12,18 @@ import LocalAuthentication
 
 class ViewController: UIViewController {
     
-    var videoPlayer:AVPlayer?
+    @IBAction func SignInButton(_ sender: Any) {
+    }
     
-    var videoPlayerLayer:AVPlayerLayer?
-
-    @IBOutlet weak var SignInButton: UIButton!
-    
-    @IBOutlet weak var SignUpButton: UIButton!
+    @IBAction func SignUpButton(_ sender: Any) {
+    }
+    //    var videoPlayer:AVPlayer?
+//    
+//    var videoPlayerLayer:AVPlayerLayer?
+//
+//    @IBOutlet weak var SignInButton: UIButton!
+//    
+//    @IBOutlet weak var SignUpButton: UIButton!
     @IBAction func FaceIdButton(_ sender: Any) {
         
         let context:LAContext = LAContext()

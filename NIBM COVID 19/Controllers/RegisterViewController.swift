@@ -13,17 +13,29 @@ import Firebase
 class RegisterViewController: UIViewController {
 
 
-   
-   
-    @IBOutlet weak var FirstNameTextField: UITextField!
-    @IBOutlet weak var LastNameTextField: UITextField!
-
-    @IBOutlet weak var emailTextField:UITextField!
-    @IBOutlet weak var roleTextField:UITextField!
-    @IBOutlet weak var passwordTextField:UITextField!
-    @IBOutlet weak var signInButton: UIButton!
+    @IBAction func FirstNameTextField(_ sender: Any) {
+    }
     
-    @IBOutlet weak var AlreadyHaveAnAccountButton: UIButton!
+   
+    @IBAction func LastNameTextField(_ sender: Any) {
+    }
+    
+    
+    @IBAction func PasswordTextField(_ sender: Any) {
+    }
+    @IBAction func roleTextField(_ sender: Any) {
+    }
+    @IBAction func emailTextField(_ sender: Any) {
+    }
+    //    @IBOutlet weak var FirstNameTextField: UITextField!
+//    @IBOutlet weak var LastNameTextField: UITextField!
+//
+//    @IBOutlet weak var emailTextField:UITextField!
+//    @IBOutlet weak var roleTextField:UITextField!
+//    @IBOutlet weak var passwordTextField:UITextField!
+//    @IBOutlet weak var signInButton: UIButton!
+//
+//    @IBOutlet weak var AlreadyHaveAnAccountButton: UIButton!
     
 
     @IBOutlet var errorLabel: UILabel!
@@ -40,13 +52,13 @@ class RegisterViewController: UIViewController {
 //        // Hide the error label
        errorLabel.alpha = 0
         // Style the elements
-         Utilities.styleTextField(FirstNameTextField)
-         Utilities.styleTextField(LastNameTextField)
-         Utilities.styleTextField(emailTextField)
-         Utilities.styleTextField(roleTextField)
-         Utilities.styleTextField(passwordTextField)
-         Utilities.styleFilledButton(signInButton)
-         Utilities.styleFilledButton(AlreadyHaveAnAccountButton)
+//         Utilities.styleTextField(FirstNameTextField)
+//         Utilities.styleTextField(LastNameTextField)
+//         Utilities.styleTextField(emailTextField)
+//         Utilities.styleTextField(roleTextField)
+//         Utilities.styleTextField(passwordTextField)
+//         Utilities.styleFilledButton(signInButton)
+//         Utilities.styleFilledButton(AlreadyHaveAnAccountButton)
    }
     
     
@@ -144,6 +156,10 @@ class RegisterViewController: UIViewController {
 //            view.window?.rootViewController = homeViewController
 //            view.window?.makeKeyAndVisible()
     
+    @IBAction func signUpButton(_ sender: Any) {
+    }
+    @IBAction func AlreadyHaveAnAccount(_ sender: Any) {
+    }
     
     }
         

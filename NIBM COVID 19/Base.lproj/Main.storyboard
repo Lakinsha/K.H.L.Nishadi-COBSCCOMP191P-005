@@ -31,7 +31,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="SignInButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZPK-5b-y5r"/>
+                                    <action selector="SignInButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gCt-CA-CKb"/>
                                     <segue destination="FrV-63-LLV" kind="presentation" id="w94-bl-rLR"/>
                                 </connections>
                             </button>
@@ -44,7 +44,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="SignUpButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w8q-xc-5JC"/>
+                                    <action selector="SignUpButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="huZ-ua-jTx"/>
                                     <segue destination="rQ1-QP-vlq" kind="presentation" id="8Ok-dP-d85"/>
                                 </connections>
                             </button>
@@ -93,7 +93,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="PasswordTextField:" destination="OXm-xM-HHK" eventType="editingDidEnd" id="W2t-bB-pEN"/>
-                                    <action selector="passwordTextField:" destination="OXm-xM-HHK" eventType="editingDidEnd" id="Nn4-16-dfY"/>
+                                    <action selector="passwordTextField:" destination="OXm-xM-HHK" eventType="editingDidEnd" id="hBU-m2-7fW"/>
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZRu-h0-915">
@@ -105,7 +105,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="SignInButton:" destination="OXm-xM-HHK" eventType="touchUpInside" id="G7N-N6-tjm"/>
+                                    <action selector="SignInButton:" destination="OXm-xM-HHK" eventType="touchUpInside" id="suX-jN-YHT"/>
                                     <action selector="SignUpButton:" destination="OXm-xM-HHK" eventType="touchUpInside" id="oo0-Ue-NIQ"/>
                                     <segue destination="AMK-ci-qUt" kind="presentation" id="1a9-4M-dam"/>
                                 </connections>
@@ -140,6 +140,7 @@
                                 <connections>
                                     <action selector="EmailTextField:" destination="OXm-xM-HHK" eventType="editingDidEnd" id="RPN-Uf-6SG"/>
                                     <action selector="emailTextField:" destination="OXm-xM-HHK" eventType="editingDidEnd" id="l3k-1H-ueP"/>
+                                    <action selector="emailTextPassword:" destination="OXm-xM-HHK" eventType="editingDidEnd" id="r7i-K9-yX2"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2rI-Uv-iQO">
@@ -180,7 +181,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="FirstNameTextFied:" destination="dxF-bR-cgF" eventType="editingDidEnd" id="OwX-rg-1db"/>
-                                    <action selector="FirstNameTextField:" destination="dxF-bR-cgF" eventType="editingDidEnd" id="xQQ-ZO-r6l"/>
+                                    <action selector="FirstNameTextField:" destination="dxF-bR-cgF" eventType="editingDidEnd" id="Ky8-gW-elI"/>
                                     <action selector="LastNameTextField:" destination="dxF-bR-cgF" eventType="editingDidEnd" id="wGH-N6-ygV"/>
                                     <action selector="firstNameTextField:" destination="dxF-bR-cgF" eventType="editingDidEnd" id="7pp-3p-Epn"/>
                                 </connections>
@@ -192,6 +193,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="LastNameTextFeild:" destination="dxF-bR-cgF" eventType="editingDidEnd" id="r19-Hy-x2S"/>
+                                    <action selector="LastNameTextField:" destination="dxF-bR-cgF" eventType="editingDidEnd" id="QFn-aW-aSM"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5c9-dR-yNl">
@@ -200,6 +202,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
+                                    <action selector="PasswordTextField:" destination="dxF-bR-cgF" eventType="editingDidEnd" id="bgr-yl-C5v"/>
                                     <action selector="passwordTextField:" destination="dxF-bR-cgF" eventType="editingDidEnd" id="xpE-ge-wTJ"/>
                                 </connections>
                             </textField>
@@ -211,7 +214,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="signUpButton:" destination="dxF-bR-cgF" eventType="touchUpInside" id="f46-XJ-KyH"/>
+                                    <action selector="signUpButton:" destination="dxF-bR-cgF" eventType="touchUpInside" id="9kL-iv-AzS"/>
                                     <action selector="signupButton:" destination="dxF-bR-cgF" eventType="touchUpInside" id="MX3-dX-b7s"/>
                                     <action selector="signupButtonTapped:" destination="dxF-bR-cgF" eventType="touchUpInside" id="mgo-W8-7tK"/>
                                     <segue destination="AMK-ci-qUt" kind="presentation" id="Hup-wQ-rQi"/>
@@ -229,7 +232,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="roleTextField:" destination="dxF-bR-cgF" eventType="editingDidEnd" id="jA2-Dg-Z6T"/>
+                                    <action selector="roleTextField:" destination="dxF-bR-cgF" eventType="editingDidEnd" id="2oB-fw-NVZ"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ivN-Xu-pFU">
@@ -238,7 +241,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="emailTextField:" destination="dxF-bR-cgF" eventType="editingDidEnd" id="KhE-7H-tUZ"/>
+                                    <action selector="emailTextField:" destination="dxF-bR-cgF" eventType="editingDidEnd" id="XJL-pY-X6o"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terms of service and" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0wL-CY-wqO">
@@ -261,6 +264,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="AlreadyHaveAnAccount:" destination="dxF-bR-cgF" eventType="touchUpInside" id="y3Q-q2-MRc"/>
                                     <action selector="AlreadyHaveAnAccountButton:" destination="dxF-bR-cgF" eventType="touchUpInside" id="wBB-K6-2Kl"/>
                                     <action selector="needAnAccountButton:" destination="dxF-bR-cgF" eventType="touchUpInside" id="I9Y-ZK-UcO"/>
                                     <segue destination="FrV-63-LLV" kind="presentation" id="z4F-Jp-FgE"/>

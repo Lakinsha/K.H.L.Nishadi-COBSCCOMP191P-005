@@ -11,34 +11,39 @@ import UIKit
 class LoginViewController: UIViewController {
     
     
+    @IBAction func passwordTextField(_ sender: UITextField) {
+    }
     
-    @IBOutlet weak var emailTextField: UITextField!
     
-    @IBOutlet weak var passwordTextField: UITextField!
-    
-    @IBOutlet weak var errorLabel: UILabel!
-    
-    @IBOutlet weak var SignUpButton: UIButton!
-    
-    @IBOutlet weak var NeedAnAccountButton: UIButton!
+    @IBAction func emailTextPassword(_ sender: Any) {
+    }
+    //    @IBOutlet weak var emailTextField: UITextField!
+//    
+//    @IBOutlet weak var passwordTextField: UITextField!
+//    
+//    @IBOutlet weak var errorLabel: UILabel!
+//    
+//    @IBOutlet weak var SignUpButton: UIButton!
+//    
+//    @IBOutlet weak var NeedAnAccountButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-    func setUpElements() {
+   // func setUpElements() {
 //
 //           // Hide the error label
-           errorLabel.alpha = 0
+       //    errorLabel.alpha = 0
 //
 //           // Style the elements
-           Utilities.styleTextField(emailTextField)
-           Utilities.styleTextField(passwordTextField)
-           Utilities.styleFilledButton(SignUpButton)
-           Utilities.styleFilledButton(NeedAnAccountButton)
+//           Utilities.styleTextField(emailTextField)
+//           Utilities.styleTextField(passwordTextField)
+//           Utilities.styleFilledButton(SignUpButton)
+//           Utilities.styleFilledButton(NeedAnAccountButton)
         
-       }
+       //}
     /*
     // MARK: - Navigation
 
@@ -69,8 +74,11 @@ class LoginViewController: UIViewController {
 //                }
 //            }
 //
+    @IBAction func SignInButton(_ sender: Any) {
+    }
     @IBAction func NeedAccountButton(_ sender: Any) {
     }
+    
 }
 
     
